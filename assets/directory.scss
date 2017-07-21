@@ -1,0 +1,35 @@
+.scrollup {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 9999999;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+  display: none;
+}
+
+.naming,
+.scroller {
+  color: #000;
+}
+
+.directory-link {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    color: #cc0000;
+    font-weight: bold;
+  }
+
+  .active {
+    color: #cc0000;
+    font-weight: bold;
+  }
+}
+
+.alpha-disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.3;
+}
